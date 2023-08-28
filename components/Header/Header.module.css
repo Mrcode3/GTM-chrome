@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  background-color: #609da1;
+  padding: 0.25rem 1rem;
+}
+
+.logo {
+  height: 35px;
+  aspect-ratio: 1/1;
+  border-radius: 100%;
+}
+
+.headerlinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerlinks img {
+  background: transparent;
+  height: 25px;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+}

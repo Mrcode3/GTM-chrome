@@ -1,0 +1,12 @@
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.25rem;
+  margin: 0;
+  font-size: small;
+}
+
+.footer p {
+  margin: 0;
+}
