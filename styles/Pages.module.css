@@ -8,11 +8,44 @@
 }
 
 .main {
-  width: 90%;
+  width: 100%;
   aspect-ratio: 1/1;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  gap: 2rem;
+  background-color: #fff;
+}
+
+.options {
+  width: 100%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 0 0.75rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.75rem;
+  padding: 0 0.75rem;
 }
 
 .title {
